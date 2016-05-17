@@ -82,10 +82,16 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XlG-vp-GID">
                                 <rect key="frame" x="224" y="334" width="153" height="30"/>
                                 <state key="normal" title="SignUp As Insturctor"/>
+                                <connections>
+                                    <action selector="signUpAction:" destination="MBA-HY-bXC" eventType="touchUpInside" id="EqV-9l-vji"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpr-Al-Q3R">
                                 <rect key="frame" x="224" y="372" width="153" height="30"/>
                                 <state key="normal" title="Login As Insturctor"/>
+                                <connections>
+                                    <action selector="loginAction:" destination="MBA-HY-bXC" eventType="touchUpInside" id="oOk-qm-AUN"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructor SignUp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PuS-WD-5Am">
                                 <rect key="frame" x="225" y="36" width="150" height="30"/>
@@ -96,6 +102,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="haN-Mj-ft6" id="E1z-9K-zfC"/>
+                        <outlet property="passWordField" destination="QAo-lQ-t9A" id="eS7-AZ-AvL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iFr-rF-wka" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,10 +148,16 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYo-jR-qBb">
                                 <rect key="frame" x="227" y="326" width="153" height="30"/>
                                 <state key="normal" title="SignUp As Student"/>
+                                <connections>
+                                    <action selector="signUpAction:" destination="K8y-c1-066" eventType="touchUpInside" id="9gP-JY-bg4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJJ-xc-bTx">
                                 <rect key="frame" x="227" y="364" width="153" height="30"/>
                                 <state key="normal" title="Login As Student"/>
+                                <connections>
+                                    <action selector="loginAction:" destination="K8y-c1-066" eventType="touchUpInside" id="k2j-pp-aqA"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Student SignUp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISp-QM-TEg">
                                 <rect key="frame" x="228" y="28" width="150" height="30"/>
@@ -152,6 +168,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="Hp9-mY-R3U" id="R7T-NJ-Spi"/>
+                        <outlet property="passWordField" destination="WbB-0L-VTJ" id="KpP-g4-ctR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jSR-gA-cWX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

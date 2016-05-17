@@ -107,18 +107,9 @@
 		9BB167961CEA713D0012A9DF /* CheckIn */ = {
 			isa = PBXGroup;
 			children = (
-				9BB1679A1CEA713D0012A9DF /* AppDelegate.h */,
-				9BB1679B1CEA713D0012A9DF /* AppDelegate.m */,
-				9BB1679D1CEA713D0012A9DF /* MainViewController.h */,
-				9BB1679E1CEA713D0012A9DF /* MainViewController.m */,
-				9BB167A01CEA713D0012A9DF /* Main.storyboard */,
-				9BB167CD1CEBC0EC0012A9DF /* StudentViewController.h */,
-				9BB167CE1CEBC0EC0012A9DF /* StudentViewController.m */,
-				9BB167CA1CEBC0C30012A9DF /* InstructorViewController.h */,
-				9BB167CB1CEBC0C30012A9DF /* InstructorViewController.m */,
-				9BB167A31CEA713D0012A9DF /* Assets.xcassets */,
-				9BB167A51CEA713D0012A9DF /* LaunchScreen.storyboard */,
-				9BB167A81CEA713D0012A9DF /* Info.plist */,
+				9BB167D01CEBC2250012A9DF /* Model */,
+				9BB167D21CEBC2360012A9DF /* Controller */,
+				9BB167D11CEBC22E0012A9DF /* View */,
 				9BB167971CEA713D0012A9DF /* Supporting Files */,
 			);
 			path = CheckIn;
@@ -127,6 +118,10 @@
 		9BB167971CEA713D0012A9DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BB167A51CEA713D0012A9DF /* LaunchScreen.storyboard */,
+				9BB167A81CEA713D0012A9DF /* Info.plist */,
+				9BB1679A1CEA713D0012A9DF /* AppDelegate.h */,
+				9BB1679B1CEA713D0012A9DF /* AppDelegate.m */,
 				9BB167981CEA713D0012A9DF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -148,6 +143,35 @@
 				9BB167BE1CEA713D0012A9DF /* Info.plist */,
 			);
 			path = CheckInUITests;
+			sourceTree = "<group>";
+		};
+		9BB167D01CEBC2250012A9DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9BB167D11CEBC22E0012A9DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BB167A31CEA713D0012A9DF /* Assets.xcassets */,
+				9BB167A01CEA713D0012A9DF /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9BB167D21CEBC2360012A9DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BB1679D1CEA713D0012A9DF /* MainViewController.h */,
+				9BB1679E1CEA713D0012A9DF /* MainViewController.m */,
+				9BB167CD1CEBC0EC0012A9DF /* StudentViewController.h */,
+				9BB167CE1CEBC0EC0012A9DF /* StudentViewController.m */,
+				9BB167CA1CEBC0C30012A9DF /* InstructorViewController.h */,
+				9BB167CB1CEBC0C30012A9DF /* InstructorViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

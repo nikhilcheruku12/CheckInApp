@@ -9,6 +9,8 @@
 #import "InstructorViewController.h"
 
 @interface InstructorViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *emailField;
+@property (weak, nonatomic) IBOutlet UITextField *passWordField;
 
 @end
 
@@ -23,6 +25,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)signUpAction:(id)sender {
+    
+}
+
+- (IBAction)loginAction:(id)sender {
+    
+}
+
 
 /*
 #pragma mark - Navigation
